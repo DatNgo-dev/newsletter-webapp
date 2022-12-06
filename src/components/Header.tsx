@@ -14,9 +14,8 @@ const Header = () => {
                 <a href="#">Subscribe</a>
             </div>
         </div>
-        <div className="p-5 h-fit">
-          <img src="src/assets/jon-tyson-XmMsdtiGSfo-unsplash-md.jpeg" alt="Joking Image"
-          className=""/>
+        <div className="p-5 rounded">
+          <img src="src/assets/jon-tyson-XmMsdtiGSfo-unsplash-md.jpeg" alt="Joking Image"/>
         </div>
       </div>
     </main>
