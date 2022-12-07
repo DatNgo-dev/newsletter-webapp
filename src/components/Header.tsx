@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./Button";
+import vectorImage from "../assets/freepik-image.jpg"
 
 const Header = () => {
   return (
@@ -11,13 +12,13 @@ const Header = () => {
           IT. If you are interested then please click the subscribe button to receive daily news article via your email
         </p>
 
-        <Button style="self-center">Subscribe</Button>
+        <Button style="self-center text-white">Subscribe</Button>
         
       </div>
 
-      <div className="rounded-xl h-full w-full bg-green-500 justify-self-center self-center overflow-hidden">
+      <div className="rounded-xl h-full w-full justify-self-center self-center overflow-hidden">
         <img
-          src="src/assets/5524716_2868865.jpg"
+          src={vectorImage}
           alt="Vector Image"
           className="object-fill h-full w-full"
         />
