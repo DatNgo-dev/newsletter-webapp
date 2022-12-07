@@ -6,7 +6,7 @@ import Footer from "./components/Footer"
 
 function App() {
   return (
-    <div className="flex flex-col h-screen overflow-y-scroll">
+    <div className="grid grid-cols-1 grid-rows-[7%_91%_2%] h-screen">
       <Navbar/>
       <Header/>
       <Footer/>
