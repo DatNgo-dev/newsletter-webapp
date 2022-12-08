@@ -10,10 +10,10 @@ const Navbar = () => {
       
       <ul className="flex justify-center gap-8">
         <li>
-          <a href="#" className="lg:text-3xl text-lg">Home</a>
+          <a href="#" className="lg:text-3xl text-lg text-orange-500 font-semibold">Home</a>
         </li>
         <li>
-          <a href="#" className="lg:text-3xl text-lg">About</a>
+          <a href="#" className="lg:text-3xl text-lg text-orange-500 font-semibold">About</a>
         </li>
         {/* <li>
           <a href="#" className="lg:text-3xl text-lg">Sign In</a>
